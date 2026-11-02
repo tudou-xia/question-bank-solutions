@@ -73,7 +73,9 @@ A. 3 kbit/s   B. 6 kbit/s   C. 30 kbit/s   D. 29.9 kbit/s
 
 ## 安装
 
-把整个目录放进技能目录即可：
+把整个目录放进技能目录即可。
+
+**方式一：git clone**（便于以后 `git pull` 升级）
 
 ```bash
 # 用户级（所有项目可用）
@@ -83,6 +85,10 @@ git clone https://github.com/tudou-xia/question-bank-solutions.git \
 # 或项目级
 mkdir -p .workbuddy/skills && cp -r question-bank-solutions .workbuddy/skills/
 ```
+
+**方式二：下 zip 解压**（不想装 git 就用这个）
+
+到 [Releases](https://github.com/tudou-xia/question-bank-solutions/releases/latest) 下载 `question-bank-solutions.zip`，解压后把整个 `question-bank-solutions/` 文件夹放进 `~/.workbuddy/skills/` 即可。
 
 不依赖任何脚本或第三方包，`SKILL.md` 本身就是全部逻辑，其它目录只是可选的细节展开。
 
