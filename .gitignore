@@ -1,0 +1,14 @@
+# 运行期产物
+.qbank/
+
+# 导出的答案文档
+*_答案.docx
+*_答案速通.docx
+*_完整答案_*.docx
+*_答案.md
+
+# 系统 / 编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
